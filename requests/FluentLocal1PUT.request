@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>baseURL</key>
-	<string>http://localhost:8080/api/acronyms</string>
+	<string>http://localhost:8080/api/acronyms/1</string>
 	<key>followRedirect</key>
 	<true/>
 	<key>handleJSONPCallbacks</key>
@@ -11,7 +11,7 @@
 	<key>headers</key>
 	<array/>
 	<key>httpMethod</key>
-	<string>POST</string>
+	<string>PUT</string>
 	<key>jsonpScript</key>
 	<string></string>
 	<key>paramBodyUIChoice</key>
@@ -24,7 +24,7 @@
 			<key>parameter</key>
 			<string>short</string>
 			<key>value</key>
-			<string>OMG</string>
+			<string>TC</string>
 		</dict>
 		<dict>
 			<key>inUse</key>
@@ -32,7 +32,7 @@
 			<key>parameter</key>
 			<string>long</string>
 			<key>value</key>
-			<string>Oh My God</string>
+			<string>Take Care</string>
 		</dict>
 	</array>
 	<key>parametersType</key>

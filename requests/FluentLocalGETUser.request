@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>baseURL</key>
-	<string>http://localhost:8080/api/acronyms</string>
+	<string>http://localhost:8080/api/acronyms/search</string>
 	<key>followRedirect</key>
 	<true/>
 	<key>handleJSONPCallbacks</key>
@@ -11,38 +11,13 @@
 	<key>headers</key>
 	<array/>
 	<key>httpMethod</key>
-	<string>POST</string>
+	<string>GET</string>
 	<key>jsonpScript</key>
 	<string></string>
 	<key>paramBodyUIChoice</key>
 	<integer>0</integer>
 	<key>parameters</key>
-	<array>
-		<dict>
-			<key>inUse</key>
-			<true/>
-			<key>parameter</key>
-			<string>short</string>
-			<key>value</key>
-			<string>GN</string>
-		</dict>
-		<dict>
-			<key>inUse</key>
-			<true/>
-			<key>parameter</key>
-			<string>long</string>
-			<key>value</key>
-			<string>Good Night</string>
-		</dict>
-		<dict>
-			<key>inUse</key>
-			<true/>
-			<key>parameter</key>
-			<string>userID</string>
-			<key>value</key>
-			<string>C3E3ACC4-0FF1-451B-9374-3F1116ED37B5</string>
-		</dict>
-	</array>
+	<array/>
 	<key>parametersType</key>
 	<integer>1</integer>
 	<key>presentBeforeChallenge</key>

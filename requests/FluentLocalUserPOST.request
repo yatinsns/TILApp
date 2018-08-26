@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>baseURL</key>
-	<string>http://localhost:8080/api/acronyms</string>
+	<string>http://localhost:8080/api/users</string>
 	<key>followRedirect</key>
 	<true/>
 	<key>handleJSONPCallbacks</key>
@@ -22,25 +22,17 @@
 			<key>inUse</key>
 			<true/>
 			<key>parameter</key>
-			<string>short</string>
+			<string>name</string>
 			<key>value</key>
-			<string>GN</string>
+			<string>Yatin Sarbalia</string>
 		</dict>
 		<dict>
 			<key>inUse</key>
 			<true/>
 			<key>parameter</key>
-			<string>long</string>
+			<string>username</string>
 			<key>value</key>
-			<string>Good Night</string>
-		</dict>
-		<dict>
-			<key>inUse</key>
-			<true/>
-			<key>parameter</key>
-			<string>userID</string>
-			<key>value</key>
-			<string>C3E3ACC4-0FF1-451B-9374-3F1116ED37B5</string>
+			<string>yatin.s</string>
 		</dict>
 	</array>
 	<key>parametersType</key>
